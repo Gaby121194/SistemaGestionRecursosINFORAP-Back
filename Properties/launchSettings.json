@@ -1,0 +1,40 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:14738",
+      "sslPort": 44382
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "api/v1",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_ENVIRONMENT_JWT_SECRET": "UudFhYLDTMXpGYi86SeiVo9PXP5r0b3C",
+        "ASPNETCORE_ENVIRONMENT_EMAIL_FROM": "inforapsolutions@gmail.com",
+        "ASPNETCORE_ENVIRONMENT_EMAIL_SECRET_FROM": "ba6CFGXDPVmRJZP!",
+        "ASPNETCORE_ENVIRONMENT_CONNECTION_STRING": "Server=.\\SQLEXPRESS;Database=inforap_dev;Trusted_Connection=True;",
+        "ASPNETCORE_ENVIRONMENT_CONNECTION_NAME": "inforap_dev",
+        "ASPNETCORE_ENVIRONMENT_BACKUP_DIRECTORY": "D:\\backups\\",
+        "ASPNETCORE_ENVIRONMENT_MONGODB_CONNECTION_STRING": "mongodb://localhost:27017",
+        "ASPNETCORE_ENVIRONMENT_MONGODB_DATABASENAME": "Inforap"
+      }
+    },
+    "INFORAP.API": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "weatherforecast",
+      "applicationUrl": "https://localhost:5001;http://localhost:5000",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_ENVIRONMENT_JWT_SECRET": "UudFhYLDTMXpGYi86SeiVo9PXP5r0b3C"
+
+      }
+    }
+  }
+}
